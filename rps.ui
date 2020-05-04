@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RockPaperScisor</class>
+ <widget class="QWidget" name="RockPaperScisor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>717</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>22</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>RockPaperScissor</string>
+  </property>
+  <widget class="QPushButton" name="rock">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>170</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Rock</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/Webp.net-resizeimage (1).png);</string>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="paper">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>170</y>
+     <width>121</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Paper</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/Webp.net-resizeimage (2).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scissor">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>170</y>
+     <width>121</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="toolTip">
+    <string>Scissors</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/Webp.net-resizeimage (3).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>571</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Purisa</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="lineWidth">
+    <number>32</number>
+   </property>
+   <property name="text">
+    <string>Rock Paper Scissor</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="botlabel">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>330</y>
+     <width>261</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="result">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>480</y>
+     <width>481</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Purisa</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>161</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Purisa</family>
+     <pointsize>17</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>You Choose</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>350</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Purisa</family>
+     <pointsize>17</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>I Choose</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../Downloads/r.qrc"/>
+ </resources>
+ <connections/>
+</ui>
